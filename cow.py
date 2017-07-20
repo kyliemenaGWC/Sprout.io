@@ -17,7 +17,7 @@ if gender == "female":
 	print("what will you do? You can 'cry' or 'kick the nearest human'")
 	choice1= input()
 	
-	while choice1 != "cry" or "kick the nearest human":
+	while choice1 != ("cry" or "kick the nearest human"):
 		print ("please answer me")
 		choice1 = input()
 
@@ -36,7 +36,7 @@ if gender == "female":
 		 outfit do you go in a 'black suit' or the 'cow suit' or go 'naked' ''')
 
 		choice2= input ()
-		while choice2 != "black suit" or "cow suit" or "naked":
+		while choice2 != ("black suit" or "cow suit" or "naked"):
 			print ("please answer me")
 			choice2 = input()
 		if choice2 == "black suit":
