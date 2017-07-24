@@ -4,7 +4,7 @@ start = input()
 while start != "start":
 	print ("Please type start")
 	start = input()
-
+,
 print ("are you a 'female' or 'male'?")
 gender = input()
 
